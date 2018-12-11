@@ -5,10 +5,9 @@ SECTION .TEXT
 
 hello:
     push   	rbp
-	mov    	rbp, rsp ; some setup stuff
+    mov    	rbp, rsp ; some setup stuff
 
-    mov rax, 4
-    add rax, 8
+    ; do stuff
 
     leave
     ret ; some cleanup stuff
